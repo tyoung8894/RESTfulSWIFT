@@ -14,6 +14,8 @@
 		D828F56F1DCA62B30060189E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D828F56D1DCA62B30060189E /* LaunchScreen.storyboard */; };
 		D828F57A1DCA62B30060189E /* RESTfulExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828F5791DCA62B30060189E /* RESTfulExampleTests.swift */; };
 		D828F5851DCA62B30060189E /* RESTfulExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828F5841DCA62B30060189E /* RESTfulExampleUITests.swift */; };
+		D828F5951DCA68330060189E /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828F5941DCA68330060189E /* RestApiManager.swift */; };
+		D828F5971DCA6AEA0060189E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828F5961DCA6AEA0060189E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D828F5801DCA62B30060189E /* RESTfulExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTfulExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D828F5841DCA62B30060189E /* RESTfulExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulExampleUITests.swift; sourceTree = "<group>"; };
 		D828F5861DCA62B30060189E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D828F5941DCA68330060189E /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		D828F5961DCA6AEA0060189E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D828F56B1DCA62B30060189E /* Assets.xcassets */,
 				D828F56D1DCA62B30060189E /* LaunchScreen.storyboard */,
 				D828F5701DCA62B30060189E /* Info.plist */,
+				D828F5941DCA68330060189E /* RestApiManager.swift */,
+				D828F5961DCA6AEA0060189E /* SwiftyJSON.swift */,
 			);
 			path = RESTfulExample;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				D828F5671DCA62B30060189E /* ViewController.swift in Sources */,
 				D828F5651DCA62B30060189E /* AppDelegate.swift in Sources */,
+				D828F5951DCA68330060189E /* RestApiManager.swift in Sources */,
+				D828F5971DCA6AEA0060189E /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
